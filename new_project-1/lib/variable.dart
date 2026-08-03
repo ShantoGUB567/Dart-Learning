@@ -20,10 +20,25 @@ void main() {
   double cgpa = 3.46;
   String university = "Green University of Bangladesh";
   bool isStudent = false;
+  // multi line string
+  String text = '''
+  This is a multi line string. It can span multiple lines without the need for concatenation.
+  You can include line breaks and special characters without any issues.
+  ''';
 
   print(
     "Name: $name,\nUniversity name: $university,\nFinal CGPA= $cgpa, Current Studenship: $isStudent,\nSalary: $salary",
   );
 
-  // const and final 
+  // const and final
+  final st_id = 221002567;
+  final username = 'shanto';
+  const pi = 3.1416;
+
+  final currentTime = DateTime.now(); // right
+  // const currentTime = DateTime.now(); // wrong
+
+  String? w_name;
+  print(w_name?.length);
+  print(w_name!.length); // null hole crash korbe
 }
