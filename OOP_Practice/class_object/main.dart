@@ -21,17 +21,21 @@
 // }
 
 void main() {
-
+  Student s1 = Student();
+  s1.id = 567;
+  s1.name = "Shanto";
+  s1.dept = "CSE";
+  s1.cgpa = 2.33;
+  s1.showDetails();   
 }
 
-class student {
+class Student {
   int? id;
   String? name;
   String? dept;
   double? cgpa;
 
-
-  void showDetails(){
-    print("Student Id: $id")
+  void showDetails() {
+    print("Student Id: $id");
   }
 }
