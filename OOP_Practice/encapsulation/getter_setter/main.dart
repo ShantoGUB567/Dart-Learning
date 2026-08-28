@@ -1,5 +1,3 @@
-import 'dart:math';
-
 void main() {
   Student s1 = Student(3.44);
   print(s1.cgpa);
