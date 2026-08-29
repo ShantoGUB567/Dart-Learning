@@ -35,7 +35,7 @@ class Employee {
   Employee.intern()
     : id = 0, 
       name = "Intern", 
-      salary = 15000;  
+      salary = 15000;  // Initializer List
 
   void disployInfo() {
     print("Employee Id: $id");
